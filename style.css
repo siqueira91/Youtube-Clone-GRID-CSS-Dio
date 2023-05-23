@@ -1,0 +1,182 @@
+@font-face {
+   font-family: Roboto;
+   src: url(/assets/fonts/Roboto-Regular.ttf);
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   box-sizing: border-box;
+   font-family: Roboto;
+   text-decoration: none; 
+   
+}
+
+body{
+   width: 100%;
+   min-height: 120vh;
+}
+
+.header { 
+   width: 100%;
+   height: 56px;
+}
+
+.header-move-bar{
+   width:100%;
+   padding:16px;
+   background-color: rgb(255, 255, 255);
+   height: 56px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content:space-between;
+   position: fixed;  
+}
+
+.left-header-itens{
+   display: flex;
+   width: fit-content;
+   align-items: center;
+   gap: 20px;
+   padding-right: 20px; 
+}
+
+.search-header{
+   display: flex;
+   border-radius: 27px 27px 27px 27px ;
+   background-color: rgb(48, 48, 48); 
+   width: fit-content;  
+}
+
+.btn-search-header {
+   width: 700px;
+   height: 30px;
+   border-radius: 19px 0 0 19px ;
+   font-style:oblique;
+   padding: 0 15px  ; 
+   border: 1px solid rgb(211, 198, 198)  
+}
+
+.submit-header{
+   height: 30px;
+   border-radius: 0 18px 18px 0 ;
+   width: 60px;
+   padding:  2px 1px ;
+   border: 1px solid rgb(207, 207, 207);
+   background-color: rgb(207, 207, 207);
+   filter: invert();   
+}
+
+.right-header-itens{
+   display: flex;
+   width: fit-content;
+   gap: 20px;
+   padding-left:20px; 
+}
+
+.central-bar {
+   width: 100%;
+   display: flex;
+   flex-direction: row; 
+}
+
+.main-menu {
+   width: 190px;
+   height: 435px;
+}
+
+.main-menu-move-bar{
+   width: 190px;
+   height: 440px;
+   display: flex;
+   flex-direction: column;
+   position: fixed;
+   background-color:rgb(255, 255, 255);
+   
+}
+
+.main-menu-itens{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   list-style: none;
+   font-size: 14px;
+   padding-left: 5px;
+}
+
+.main-row-box{
+   padding: 10px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 20px; 
+   height: 35px;
+   color: black;
+}
+
+.main-menu-itens  :hover{ 
+   cursor: pointer;
+   background-color: rgb(214, 216, 216);
+   border-radius: 5px; 
+}
+
+.video-group{
+  
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   gap:8px;
+   align-items: center;
+   padding: 140px;
+   max-width: 250px;
+}
+
+.video-group :hover{
+   cursor: pointer;
+   background-color: rgba(37, 71, 40, 0);
+   
+
+}
+.video-group img {
+  
+   width: 260px;
+   
+}
+
+.perfil-video{
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+   
+}
+
+.perfil-video h1{
+   font-size: 17px;
+   color: black; 
+   align-items: center;
+}
+
+.perfil-video img{
+   width: 35px;
+}
+
+
+.video-owner{
+   display: flex;
+   flex-direction: column;
+   font-size: 14px;
+   padding: 10px 0px 0px 45px;
+   color: rgba(24, 24, 24, 0.692);
+}
+
+
+
+
+
+
+
+
+
+
+
